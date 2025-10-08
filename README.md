@@ -1,4 +1,47 @@
-## TraderMade FIX 4.4 Market Data Integration Guide
+## TraderMade FIX Docker Client (Connect in minutes)
+
+To connect to the TraderMade FIX connection, you would need to have a FIX Trial. You can start this by [requesting a FIX account](https://tradermade.com/signup).
+
+Once you log in to the [Dashboard](https://tradermade.com/login), you can get your config file and save it in the root directory alongside your Dockerfile. 
+
+### Docker Compose Manager
+
+```bash
+python .\dockerComposeManager.py
+
+```
+
+You'll see the following menu
+<img width="227" height="97" alt="image" src="https://github.com/user-attachments/assets/01704c8d-0a08-40c3-acf6-dd36e697deea" />
+
+#### Press 1 to generate the Config 
+This will generate and store your config file in your src directory (make sure you have an .env file).
+
+#### Press 2 to start the server
+
+This will run Docker Compose and build an image, and start the server.
+
+#### Press 3 Get on the container shell
+
+Then get on the container and run the following command.
+
+```bash
+cd /src
+
+python fix_client.py
+
+```
+
+Voila!
+
+<img width="595" height="164" alt="image" src="https://github.com/user-attachments/assets/bb1c1084-6174-4445-81b7-be666eaab44e" />
+
+
+It's that simple.
+
+
+##
+TraderMade FIX 4.4 Market Data Integration Guide
 
 This document provides an overview of the key FIX 4.4 message types supported by the TraderMade market data server. It is intended for client developers who need to integrate their FIX initiator with the TraderMade FIX acceptor.  
 
