@@ -1,0 +1,5 @@
+.env
+FIX_Client_Docker_Tutorial.md
+/src/store/*
+/src/log/*
+/src/clientLocal.cfg

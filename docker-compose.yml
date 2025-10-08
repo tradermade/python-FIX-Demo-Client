@@ -1,0 +1,14 @@
+services:
+  python-fix-client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python-fix-client
+    container_name: fix-client
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./src:/workspace/src          # live code
+    working_dir: /workspace
+    #command: [ "/bin/bash" ]   # 👈 Start in shell instead of running fix_client.py
+    command: ["sh", "-c", "sleep infinity"]
