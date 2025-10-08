@@ -2,7 +2,7 @@
 
 To connect to the TraderMade FIX connection, you would need to have a FIX Trial. You can start this by [requesting a FIX account](https://tradermade.com/signup).
 
-Once you log in to the [Dashboard](https://tradermade.com/login), you can get your config file and save it in the root directory alongside your Dockerfile. 
+Once you log in to the [Dashboard](https://tradermade.com/login), you can get your config file and use it to amend your .env file. 
 
 ### Docker Compose Manager
 
@@ -19,7 +19,7 @@ You'll see the following menu
 
 
 #### Press 1 to generate the Config 
-This will generate and store your config file in your src directory (make sure you have an .env file).
+This will generate and store your config file in your src directory (make sure you have added credentials to your .env file by amending the sample .env file).
 
 #### Press 2 to start the server
 
