@@ -12,7 +12,11 @@ python .\dockerComposeManager.py
 ```
 
 You'll see the following menu
+
+
+
 <img width="227" height="97" alt="image" src="https://github.com/user-attachments/assets/01704c8d-0a08-40c3-acf6-dd36e697deea" />
+
 
 #### Press 1 to generate the Config 
 This will generate and store your config file in your src directory (make sure you have an .env file).
