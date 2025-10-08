@@ -2,6 +2,10 @@
 
 This document provides an overview of the key FIX 4.4 message types supported by the TraderMade market data server. It is intended for client developers who need to integrate their FIX initiator with the TraderMade FIX acceptor.  
 
+Please visit the [Tradermade FIX page](https://tradermade.com/market-data/fix-api) for more info.
+
+Alternatively, visit the [FIX Docs](https://tradermade.com/docs/fix-api) page
+
 ⚠️ **Note:** Only **market data** is supported. No order placement or trading is supported.
 
 ---
